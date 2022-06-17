@@ -1,0 +1,1 @@
+"/private/var/folders/q8/718shg791v5bq7y3rxmjsn540000gn/T/AppTranslocation/C1EF1244-8B25-4681-B9D6-32D26B3DD563/d/WeAutomator3.app/Contents/Resources/app/uitrace/WeTestUITracePython" --script "/Users/kiwi/work/udt/wa-demo/test_qq_secure.wa/main.py" --mode 0

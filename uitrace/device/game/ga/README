@@ -1,0 +1,9 @@
+GA Android：
+1.去除uiautomator：wpyscripts/manager.py get_engine ui_device = uiauto.get_uiautomator() -> ui_device = None
+2.不要import tools，否则会初始化uia和minitouch
+3./wpyscripts/common/adb_process.py中加入adb路径
+    if proj_env.adb_path:
+        return proj_env.adb_path
+
+GA iOS：
+1.ga/GAutomatorIOS/ga2/engine/UE4Engine.py添加get_element_bound函数
